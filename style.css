@@ -59,4 +59,28 @@
             width: 100%;
             height: 10%;
          }
+        .headline{
+            text-align: left;
+            font-family: cwTeXFangSong;
+            font-size: 50px;
+        }
+        .box{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 150px;
+            margin-right: 150px;
+            margin-top:150px;
+        }
+        .question{
+            padding-top: 30px;
+            padding-left:5px;
+            font-family:cwTeXFangSong;
+            font-size: 30px;
+        }
+        .answer{
+            font-family: cwTeXFangSong;
+            font-size: 20px;
+            padding:12px;
+        }
         
