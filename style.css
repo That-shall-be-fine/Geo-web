@@ -244,4 +244,43 @@
             color:#333;
         }
 
+        .form{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .form a{
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            color: dimgray;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Microsoft JhengHei;
+            letter-spacing: 2px;
+            opacity: 40%;
+        }
+
+        .form a:hover{
+            color: black;
+        }
+
+        .form a:after{
+            content: "";
+            position: absolute;
+            background-color:cadetblue;
+            height: 3px;
+            width: 0%;
+            left: 0px;
+            bottom: -6px;
+            transition: 0.3s;
+        }
+        .form a:hover:after{
+            width: 100%;
+        }
         
