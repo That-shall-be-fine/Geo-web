@@ -7,7 +7,7 @@
         .title{
             font-size: 20px; font-family:Akaya Telivigala; 
             color: white; padding: 0px;
-            position: fixed; top: 10px; left: 180px;
+            position: fixed; top: 6px; left: 180px;
             transition: 0.3s;
         }
         .title:hover{
